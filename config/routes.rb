@@ -1,5 +1,10 @@
 Rails.application.routes.draw do
-  resources :todo_lists
+  
+  # nesting the resources gives us todo_lists/:id/todo_items/:id
+  resources :todo_lists do
+    resources :todo_items do
+    end
+  end
 
   # our homepage will be the list of todo items
   root "todo_lists#index"
