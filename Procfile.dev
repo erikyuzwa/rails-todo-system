@@ -1,0 +1,2 @@
+# reserved for local dev since Heroku uses Procfile as well
+web: PORT=3000 bundle exec rails server
