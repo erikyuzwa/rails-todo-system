@@ -6,8 +6,8 @@
     <table class="todolist-table">
       <thead>
         <tr>
-          <th>&nbsp;</th>
-          <th>Title</th>
+          <th></th>
+          <th></th>
           <th colspan="2"></th>
         </tr>
       </thead>
@@ -16,7 +16,7 @@
           <tr>
             <td><%= index + 1 %></td>
             <td><%= link_to todo_list.title, todo_list %> <br />
-              <span class="description"><%= todo_list.description %></span>
+              <span class="description"><em><%= todo_list.description %></em></span>
             </td>
             <td><%= link_to 'Edit', edit_todo_list_path(todo_list) %></td>
             <td><%= link_to 'Destroy', todo_list, method: :delete, data: { confirm: 'Are you sure?' } %></td>
