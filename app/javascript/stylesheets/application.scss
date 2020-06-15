@@ -1,3 +1,15 @@
 // define variables first
+$navbar-background-color: rgb(255, 100, 0);
+
+$navbar-item-color: rgb(0, 0, 0);
 
 @import "~bulma";
+
+.todolist-table {
+  width: 90%;
+  margin-top: 20px;
+  
+  th {
+    border-bottom: rgb(0, 0, 0) solid 1px;
+  }
+}
