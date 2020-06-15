@@ -1,4 +1,6 @@
-# README
+# Rails Todo System
+
+![make those todos todone](./screenshot.png "make those todos todone")
 
 This README would normally document whatever steps are necessary to get the
 application up and running.
