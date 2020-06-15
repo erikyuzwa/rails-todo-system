@@ -1,4 +1,10 @@
 <%= form_for([@todo_list, @todo_list.todo_items.build]) do |f| %>
-  <%= f.text_field :content, placeholder: "New Todo", class: "textarea" %>
-  <%= f.submit %>
+  <div class="field has-addons">
+    <div class="control">
+      <%= f.text_field :content, placeholder: "New Todo", class: "input" %>
+    </div>
+    <div class="control">
+      <%= f.submit "Add", class: "button is-info" %>
+    </div>
+  </div>
 <% end %>
