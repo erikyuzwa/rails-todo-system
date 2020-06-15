@@ -1,6 +1,6 @@
 // define variables first
+$body-background-color: #f6f6ef;
 $navbar-background-color: rgb(255, 100, 0);
-
 $navbar-item-color: rgb(0, 0, 0);
 
 @import "~bulma";
@@ -11,5 +11,9 @@ $navbar-item-color: rgb(0, 0, 0);
   
   th {
     border-bottom: rgb(0, 0, 0) solid 1px;
+  }
+  
+  .description {
+    font-size: smaller;
   }
 }
